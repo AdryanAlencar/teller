@@ -310,6 +310,7 @@ function App() {
     }>
       <header className="App-header">
         <h1>Do que você precisa hoje?</h1>
+        <p>Clique em uma opção abaixo!</p>
       </header>
       <div 
         className={styles.content}

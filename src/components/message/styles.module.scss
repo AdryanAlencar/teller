@@ -1,0 +1,66 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+
+    &.green{
+        background-color: #00b712;
+        background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+        transition: all 1s ease-in-out;
+
+        &:hover{
+            background-color: #5aff15;
+            background-image: linear-gradient(315deg, #5aff15 0%, #5aff15 74%);
+            transition: all 1s ease-in-out;
+        }
+
+    }
+
+    &.red{
+        background-color: #ff0000;
+        background-image: linear-gradient(315deg, #ff0000 0%, #ff0080 74%);
+        transition: all 1s ease-in-out;
+
+        &:hover{
+            background-color: #ff0080;
+            background-image: linear-gradient(315deg, #ff0080 0%, #ff0080 74%);
+            transition: all 1s ease-in-out;
+        }
+    }
+
+    &.yellow{
+        background-color: #fbb034;
+        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        transition: all 1s ease-in-out;
+
+        &:hover{
+            background-color: #ffdd00;
+            background-image: linear-gradient(315deg, #ffdd00 0%, #ffdd00 74%);
+            transition: all 1s ease-in-out;
+        }
+
+    }
+
+    &.blue{
+        background-color: #2a2a72;
+        background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+        transition: all 1s ease-in-out;
+
+        &:hover{
+            background-color: #009ffd;
+            background-image: linear-gradient(315deg, #009ffd 0%, #009ffd 74%);
+            transition: all 1s ease-in-out;
+        }
+
+    }
+
+}
